@@ -78,59 +78,14 @@ const HeroSection = () => {
           {/* Right Side - 3D Illustration */}
           <div className="relative animate-slide-up">
             <div className="relative z-10">
-              {/* Main illustration container */}
-              <div className="bg-gradient-to-br from-brand-navy/5 to-brand-accent/10 rounded-3xl p-8 shadow-2xl backdrop-blur-sm border border-white/50">
-                {/* Code/Dev illustration placeholder */}
-                <div className="space-y-6">
-                  {/* Floating elements */}
-                  <div className="flex justify-center mb-8">
-                    <div className="relative">
-                      <div className="w-32 h-32 bg-brand-navy rounded-2xl shadow-lg transform rotate-6 flex items-center justify-center animate-float">
-                        <span className="text-3xl">💻</span>
-                      </div>
-                      <div
-                        className="absolute -top-4 -right-4 w-16 h-16 bg-brand-accent rounded-xl shadow-lg transform -rotate-12 flex items-center justify-center animate-float"
-                        style={{ animationDelay: "1s" }}
-                      >
-                        <span className="text-xl">🎨</span>
-                      </div>
-                      <div
-                        className="absolute -bottom-2 -left-4 w-12 h-12 bg-blue-500 rounded-lg shadow-lg transform rotate-12 flex items-center justify-center animate-float"
-                        style={{ animationDelay: "2s" }}
-                      >
-                        <span className="text-sm">🤖</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Code lines simulation */}
-                  <div className="space-y-3">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                    </div>
-                    <div className="bg-gray-900 rounded-lg p-4 space-y-2">
-                      <div className="h-2 bg-blue-400 rounded w-3/4"></div>
-                      <div className="h-2 bg-green-400 rounded w-1/2"></div>
-                      <div className="h-2 bg-yellow-400 rounded w-5/6"></div>
-                      <div className="h-2 bg-purple-400 rounded w-2/3"></div>
-                    </div>
-                  </div>
-
-                  {/* Team collaboration indicator */}
-                  <div className="flex justify-center space-x-4">
-                    <div className="w-10 h-10 bg-brand-accent rounded-full border-2 border-white shadow-lg flex items-center justify-center">
-                      <span className="text-sm">👨‍💻</span>
-                    </div>
-                    <div className="w-10 h-10 bg-brand-navy rounded-full border-2 border-white shadow-lg flex items-center justify-center">
-                      <span className="text-sm">👩‍🎨</span>
-                    </div>
-                    <div className="w-10 h-10 bg-blue-500 rounded-full border-2 border-white shadow-lg flex items-center justify-center">
-                      <span className="text-sm">👨‍💼</span>
-                    </div>
-                  </div>
-                </div>
+              {/* Professional team illustration */}
+              <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fd9cd4048572942b6909b888ed90615b0%2F1b12f2796f5847408231fc3fe3104327?format=webp&width=800"
+                  alt="For Gates development team working together with AI and technology solutions"
+                  className="w-full h-auto object-cover animate-float"
+                  loading="lazy"
+                />
               </div>
             </div>
 
