@@ -21,7 +21,7 @@ const Navigation = () => {
           <div className="flex-shrink-0">
             <a href="#home" className="flex items-center">
               <span className="text-2xl font-display font-bold text-brand-navy">
-                For Gates
+                &lt;/&gt; For Gates
               </span>
             </a>
           </div>
