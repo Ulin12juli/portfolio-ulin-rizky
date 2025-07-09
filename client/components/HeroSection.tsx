@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 animate-fade-in">
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-brand-accent/10 border border-brand-accent/20 rounded-full">
               <span className="text-sm font-medium text-brand-navy">
@@ -53,7 +53,10 @@ const HeroSection = () => {
             </div>
 
             {/* Stats */}
-            <div className="flex flex-wrap gap-8 pt-8">
+            <div
+              className="flex flex-wrap gap-8 pt-8 animate-fade-in"
+              style={{ animationDelay: "0.3s" }}
+            >
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-navy">50+</div>
                 <div className="text-sm text-gray-600">Projects Delivered</div>
@@ -70,7 +73,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right Side - 3D Illustration */}
-          <div className="relative">
+          <div className="relative animate-slide-up">
             <div className="relative z-10">
               {/* Main illustration container */}
               <div className="bg-gradient-to-br from-brand-navy/5 to-brand-accent/10 rounded-3xl p-8 shadow-2xl backdrop-blur-sm border border-white/50">
@@ -79,13 +82,19 @@ const HeroSection = () => {
                   {/* Floating elements */}
                   <div className="flex justify-center mb-8">
                     <div className="relative">
-                      <div className="w-32 h-32 bg-brand-navy rounded-2xl shadow-lg transform rotate-6 flex items-center justify-center">
+                      <div className="w-32 h-32 bg-brand-navy rounded-2xl shadow-lg transform rotate-6 flex items-center justify-center animate-float">
                         <span className="text-3xl">💻</span>
                       </div>
-                      <div className="absolute -top-4 -right-4 w-16 h-16 bg-brand-accent rounded-xl shadow-lg transform -rotate-12 flex items-center justify-center">
+                      <div
+                        className="absolute -top-4 -right-4 w-16 h-16 bg-brand-accent rounded-xl shadow-lg transform -rotate-12 flex items-center justify-center animate-float"
+                        style={{ animationDelay: "1s" }}
+                      >
                         <span className="text-xl">🎨</span>
                       </div>
-                      <div className="absolute -bottom-2 -left-4 w-12 h-12 bg-blue-500 rounded-lg shadow-lg transform rotate-12 flex items-center justify-center">
+                      <div
+                        className="absolute -bottom-2 -left-4 w-12 h-12 bg-blue-500 rounded-lg shadow-lg transform rotate-12 flex items-center justify-center animate-float"
+                        style={{ animationDelay: "2s" }}
+                      >
                         <span className="text-sm">🤖</span>
                       </div>
                     </div>
