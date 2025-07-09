@@ -162,15 +162,132 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="services" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-display font-bold text-brand-navy mb-4">
-            Our Services
-          </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Coming soon - Discover our comprehensive range of development,
-            design, and AI services.
-          </p>
+      <section
+        id="services"
+        className="py-20 bg-gradient-to-b from-white to-gray-50/30"
+      >
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-gray-100">
+            {/* Section Header */}
+            <div className="text-center mb-8">
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-6">
+                Tentang For Gates
+              </h2>
+
+              {/* Introduction Paragraph */}
+              <div className="max-w-4xl mx-auto">
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+                  Kami adalah duo developer berpengalaman yang terdiri dari
+                  spesialis frontend dan backend. Bersama-sama, kami membangun
+                  solusi digital cerdas — mulai dari website responsif, aplikasi
+                  mobile, desain UI/UX yang intuitif, hingga sistem berbasis AI
+                  yang inovatif.
+                </p>
+
+                <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+                  Dengan kombinasi keahlian teknis yang mendalam dan pemahaman
+                  bisnis yang kuat, kami berkomitmen menghadirkan solusi
+                  teknologi yang tidak hanya canggih, tetapi juga memberikan
+                  nilai nyata bagi pertumbuhan bisnis Anda.
+                </p>
+              </div>
+            </div>
+
+            {/* Key Highlights */}
+            <div className="grid md:grid-cols-3 gap-6 mb-10">
+              <div className="text-center p-6 bg-brand-navy/5 rounded-2xl">
+                <div className="w-16 h-16 bg-brand-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg
+                    className="w-8 h-8 text-brand-navy"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="font-display font-semibold text-brand-navy mb-2">
+                  Kolaborasi Solid
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Frontend & Backend yang harmonis
+                </p>
+              </div>
+
+              <div className="text-center p-6 bg-brand-accent/5 rounded-2xl">
+                <div className="w-16 h-16 bg-brand-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg
+                    className="w-8 h-8 text-brand-accent"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="font-display font-semibold text-brand-navy mb-2">
+                  Teknologi Terkini
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Menggunakan tools modern & AI
+                </p>
+              </div>
+
+              <div className="text-center p-6 bg-blue-500/5 rounded-2xl">
+                <div className="w-16 h-16 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg
+                    className="w-8 h-8 text-blue-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="font-display font-semibold text-brand-navy mb-2">
+                  Fokus Pada Nilai
+                </h3>
+                <p className="text-sm text-gray-600">
+                  Solusi yang menguntungkan bisnis
+                </p>
+              </div>
+            </div>
+
+            {/* Call to Action */}
+            <div className="text-center">
+              <button className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 group">
+                Pelajari Lebih Lanjut
+                <svg
+                  className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
