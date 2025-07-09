@@ -14,21 +14,22 @@ const HeroSection = () => {
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-brand-accent/10 border border-brand-accent/20 rounded-full">
               <span className="text-sm font-medium text-brand-navy">
-                🚀 Digital Innovation Experts
+                🚀 Tim Inovator Digital Masa Kini
               </span>
             </div>
 
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-brand-navy leading-tight">
-                We Build Smart{" "}
-                <span className="text-brand-accent">Digital</span> Experiences
+                Gerbang Menuju <span className="text-brand-accent">Solusi</span>{" "}
+                Digital Cerdas
               </h1>
 
               {/* Subheadline */}
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl">
-                For Gates is a creative tech team offering website, app, UI/UX,
-                and AI solutions — built for performance and precision.
+                Kami adalah For Gates, tim pengembang yang membangun website,
+                aplikasi, desain antarmuka, dan sistem cerdas berbasis
+                teknologi.
               </p>
             </div>
 
@@ -38,7 +39,7 @@ const HeroSection = () => {
                 size="lg"
                 className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 group"
               >
-                Explore Services
+                Lihat Layanan
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
 
@@ -48,7 +49,7 @@ const HeroSection = () => {
                 className="border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold px-8 py-4 rounded-lg transition-all duration-200 group"
               >
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Get in Touch
+                Bangun Proyek Bersama Kami
               </Button>
             </div>
 
@@ -59,15 +60,17 @@ const HeroSection = () => {
             >
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-navy">50+</div>
-                <div className="text-sm text-gray-600">Projects Delivered</div>
+                <div className="text-sm text-gray-600">Proyek Tuntas</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-navy">98%</div>
-                <div className="text-sm text-gray-600">Client Satisfaction</div>
+                <div className="text-sm text-gray-600">
+                  Tingkat Kepuasan dari Mitra Kami
+                </div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-brand-navy">24/7</div>
-                <div className="text-sm text-gray-600">Support Available</div>
+                <div className="text-sm text-gray-600">Layanan Aktif</div>
               </div>
             </div>
           </div>
